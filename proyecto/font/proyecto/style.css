@@ -1,0 +1,91 @@
+/* General setup */
+@font-face {
+  font-family: "louis_george_caferegular";
+  src: url("./fonts/louis_george_cafe-webfont.woff2") format("woff2"),
+    url("./fonts/louis_george_cafe-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "serifficregular";
+  src: url("./fonts/seriffic-webfont.woff2") format("woff2"),
+    url("./fonts/seriffic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header,
+section,
+aside,
+nav,
+footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header,
+footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+h1 {
+  font-family: sans-serif;
+  font-size: 3.5em;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+}
+h2 {
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: 2em;
+  font-weight: 700;
+}
+section p, section a, section li {
+  font-family: serif;
+  font-size: 1.4rem;
+  line-height: 1.3em;
+  letter-spacing: 0.1em;
+
+}
+footer p {
+  font-family: sans-serif;
+  font-size: 1.2em;
+}
+
